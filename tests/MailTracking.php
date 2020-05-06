@@ -37,7 +37,7 @@ trait MailTracking
 
     protected function seeEmailEquals($body,Swift_Message $message=null)
     {
-        $this->assertEquals($body,$this->getEmail($message)->getBody(), 'No email with the provided body was sent.');
+        $this->assertEquals($body,$this->getEmail($message)->getBody(), 'No email with the provided body was sent..');
 
         return $this;
     }

@@ -22,7 +22,7 @@ Route::get('/', function () {
         $message->from('bar@foo.com');
     });
 
-    return 'Email was sent';
+    return 'Email was sent.';
 
     //$this->seeEmailEquals('hello world');
 
